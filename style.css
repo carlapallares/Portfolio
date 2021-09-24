@@ -11,17 +11,13 @@
 }
 
 
-eader{
+header{
     display: flex;
     align-items: center;
     padding-top: 24px;
     padding-bottom: 32px;
     width: 95%;
     margin: 0 auto;
-}
-
-.carlafoto{
-    width:100%;
 }
 
 body {
@@ -41,11 +37,6 @@ body {
     height: 31px;
 }
 
-
-.colornav{
-    color: #eb4f3e;;
-}
-
 a{
     color: black;
 }
@@ -56,50 +47,34 @@ nav{
     width: 57%;
 }
 
+.sobreMi{
+    background-color: #F2F2F2;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
 
-.SobreMi h6, h5{
-    font-size: 25px;
-    line-height: 40px;
+.proyectostitulo{
+    color: #eb4f3e;
+}
+.contenSobreMi{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenSobreMi img{
+    width: 25%;
+}
+.contenSobreMiText{
+    width: 50%;
+}
+.contenSobreMiText p{
+    font-size: 17px;
+    line-height: 28px;
     margin-bottom: 32px;
-    margin-top: 75px;
-    margin-left: 300px;
 }
-.SobreMi h5, h6{
-    font-size: 25px;
-    line-height: 45px;
-    margin-bottom: 70px;
-    margin-top: 32px;
-    margin-left: 300px;
-}
-
-.contenSobreMiText {
-    font-size: 17px;
-    line-height: 30px;
-    margin-right: 250px;
-    margin-left: 250px;
-    line-height: 35px;
-}
-
-.contenSobreMiText2 {
-    font-size: 17px;
-    line-height: 30px;
-    margin-bottom: 32px;
-    margin-top: 32px;
-    margin-right: 250px;
-    margin-left: 250px;
-    line-height: 35px;
-}
-
-.contenSobreMiText3 {
-    font-size: 17px;
-    line-height: 30px;
-    margin-bottom: 150px;
-    margin-top: 32px;
-    margin-right: 250px;
-    margin-left: 250px;
-    line-height: 35px;
-}
-
 
 h5{
     font-size: 60px;
@@ -219,7 +194,6 @@ h6{
     font-weight: 400;
     font-size: 21px;
     margin-bottom: 20px;
-    margin-left: 0px;
 }
 
 .article-icons{
