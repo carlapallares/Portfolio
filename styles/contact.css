@@ -1,13 +1,13 @@
 
 @font-face {
     font-family: "Inter";
-    src: url(tipografia/Inter-VariableFont_slnt,wght.ttf);
+    src: url("../tipografia/Inter-VariableFont_slnt,wght.ttf");
 }
 
 
 @font-face {
     font-family: "Yeseva One";
-    src: url(tipografia/YesevaOne-Regular.ttf);
+    src: url("../tipografia/YesevaOne-Regular.ttf");
 }
 
 
